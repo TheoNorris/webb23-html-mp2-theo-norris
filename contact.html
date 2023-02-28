@@ -4,7 +4,7 @@
     <!--Meta tags och länkar till favicon, bootstrap, fontawesome och css-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hem</title>
+    <title>Meny</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
@@ -27,13 +27,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar-links">
                         <li class="nav-item">
-                            <a class="nav-link colour active" aria-current="page" href="index.html">Hem</a>
+                            <a class="nav-link colour" href="index.html">Hem</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link colour" href="menu.html">Meny</a>
+                            <a class="nav-link colour active" aria-current="page" href="menu.html">Meny</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link colour" href="contact.html">Kontakt</a>
+                            <a class="nav-link colour" href="contact.html">Kontakta oss</a>
                         </li>
                     </ul>
                 </div>
@@ -42,31 +42,39 @@
 
     </header>
     <section>
-        <div class="image-div container-fluid">
-        </div>
-        <div class="main-div container">
-            <div class="restaurant-info">
-
-                <h1 class="taste-h1 home-h1">Taste of Thailand</h1>
-
-                <p class="information-p">Vi är en Thailändsk resturang baserad i Malmö. Vi har många goda traditionella maträtter från det Thailändska köket. Även thailändsk öl Besök vår restaurang eller få maten hemlevererat. (Det går även att boka kalas/fest med karaoke)</p>
-
-                <p>Öppettider: Tis-Fre 11:00 - 21:00 / Lör-Sön 12:00 - 21:0</p>
-                <div class="contact-booking-div">
-
-                    <a class="contact-booking-p" href="tel:076-942 32 65">076-942 32 65</a>
-                    <a class="contact-booking-p" href="contact.html">Boka ett bord</a>
+        <div class="contact-wrapper">
+            <div class="overlay">
+                <div class="container form-container">
+                    <h1 class="contact-h1">Contact Form</h1>
+                    <p class="contact-p">If you're interested in learning more information about me or my experiences/education, please don't pause to contact me.</p>
+                    <form target="_blank" action="https://formsubmit.co/7712631e3a41de163c67a04ed7dd89e2" method="POST">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="Name" name="Name" class="form-control" id="name" placeholder="John Smith" maxlength="10" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" name="Email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                            <input type="Subject" name="Subject" class="form-control" id="subject" placeholder="Subject.." maxlength="50" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">What's on your mind?</label>
+                            <textarea class="form-control" name="Message" id="Textarea1" placeholder="Thoughts.." rows="3" maxlength="300" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3" id="sub-but">Submit</button>
+                    </form>
                 </div>
             </div>
-
-
         </div>
 
     </section>
     <footer>
         <div class="socials">
             <a href="https://www.facebook.com/tasteofthailand2020" target="_blank"><i class="fa-brands fa-facebook social-links"></i></a>
-            <a href="https://www.fa-instagram/tasteof_thailand" target="_blank"><i class="fa-brands fa-instagram social-links"></i></a>
+            <a href="https://www.fa-instagram/tasteof_thailand" target="_blank"><i class="fa-brands fa-instagram social-links"></i></a>tasteof_thailand/
         </div>
         <p class="copyright-text">
             © 2022 All rights Reserved by TASTE OF THAILAND. Website designed by

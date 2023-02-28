@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Tilt+Neon&display=swap');
 :root {
     --green: rgb(84, 177, 61);
+    --orange: #fbb571;
 }
 
 * {
@@ -50,17 +51,20 @@ nav {
 }
 
 .home-h1 {
-    font-family: 'Climate Crisis', cursive;
+    font-family: 'EB Garamond', serif;
     letter-spacing: 5px;
     color: var(--green);
     margin-top: 20px;
     margin-bottom: 40px;
     text-decoration: underline 3px;
     text-underline-offset: 20px;
+    font-weight: 600;
+    font-size: 60px;
 }
 
 .information-p {
-    margin-top: 40px;
+    width: 50%;
+    margin: 40px auto 20px;
     font-size: 25px;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
@@ -84,10 +88,119 @@ nav {
     color: #3D8EB1;
 }
 
+.menu-image-div {
+    padding: 0;
+    height: 500px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background: url("../images/thaifood.jpg");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main-div.menu-div {
+    margin: 0;
+}
+
+.restaurant-info.menu-info {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.home-h1.menu-h1 {
+    margin-bottom: 60px;
+}
+
+.food-pic-container {
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.food-pic-div {
+    width: 100%;
+    border: 2px solid var(--orange);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Tilt Neon', cursive;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.food-pic {
+    height: 200px;
+    width: 100%;
+}
+
+.food-pic-h4 {
+    margin-top: 15px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.menu-pic {
+    width: 42vw;
+    border-radius: 25px;
+}
+
+.menu-pic.left {
+    transition: opacity 1.6s ease-out 0s, transform 1s linear 0s;
+    transform-origin: bottom left;
+}
+
+.menu-pic.right {
+    transition: opacity 1.6s ease-out 0s, transform 1s linear 0s;
+    transform-origin: bottom right;
+}
+
+.menu-pic:hover {
+    transform: scale(2);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.price-h5 {
+    font-family: 'EB Garamond';
+    font-style: italic;
+}
+
+.overlay {
+    height: 100%;
+    background: rgba(250, 250, 250, 0.5);
+    z-index: 2;
+    max-width: 100vw;
+    width: 100%;
+}
+
+.wrapper {
+    margin-top: 100px;
+    height: 200vh;
+    background: url("../images/computer.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
 .socials {
     display: flex;
-    gap: 10px;
     justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -102,7 +215,7 @@ nav {
 }
 
 .theo-tag {
-    font-family: 'Climate Crisis', cursive;
+    font-family: 'EB Garamond', serif;
     font-weight: 900;
     text-decoration: none;
     letter-spacing: 4px;
@@ -111,6 +224,10 @@ nav {
 
 .theo-tag:hover {
     color: var(--green);
+}
+
+.copyright-text {
+    font-size: 12px;
 }
 
 footer {
