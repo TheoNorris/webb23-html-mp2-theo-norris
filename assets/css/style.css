@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Tilt+Neon&display=swap');
+:root {
+    --green: rgb(84, 177, 61);
+}
+
+* {
+    font-family: 'Tilt Neon', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar-logo {
+    max-height: 80px;
+    padding-bottom: 10px;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1);
+}
+
+#navbarNav {
+    flex-direction: row-reverse;
+}
+
+.nav-link:hover {
+    color: var(--green);
+}
+
+.image-div {
+    padding: 0;
+    height: 500px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background: url("../images/beach.png");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main-div {
+    padding: 20px 0px;
+}
+
+.home-h1 {
+    font-family: 'Climate Crisis', cursive;
+    letter-spacing: 5px;
+    color: var(--green);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-decoration: underline 3px;
+    text-underline-offset: 20px;
+}
+
+.information-p {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.contact-booking-div {
+    font-size: 20px;
+}
+
+.contact-booking-p {
+    text-decoration: none;
+    margin: 30px 10px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--green)
+}
+
+.contact-booking-p:hover {
+    color: #3D8EB1;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.social-links {
+    color: #949494;
+}
+
+.social-links:hover {
+    color: #ff0000;
+}
+
+.theo-tag {
+    font-family: 'Climate Crisis', cursive;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #ff7e00;
+}
+
+.theo-tag:hover {
+    color: var(--green);
+}
+
+footer {
+    border-top: 1px solid rgb(78, 78, 78);
+    margin-top: 20px;
+}
