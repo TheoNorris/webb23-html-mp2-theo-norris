@@ -33,7 +33,7 @@
                             <a class="nav-link colour active" aria-current="page" href="menu.html">Meny</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link colour" href="contact.html">Kontakta oss</a>
+                            <a class="nav-link colour" href="contact.html">Boka bord</a>
                         </li>
                     </ul>
                 </div>
@@ -42,29 +42,32 @@
 
     </header>
     <section>
-        <div class="contact-wrapper">
+        <div class="wrapper">
             <div class="overlay">
                 <div class="container form-container">
-                    <h1 class="contact-h1">Contact Form</h1>
-                    <p class="contact-p">If you're interested in learning more information about me or my experiences/education, please don't pause to contact me.</p>
-                    <form target="_blank" action="https://formsubmit.co/7712631e3a41de163c67a04ed7dd89e2" method="POST">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Name</label>
-                            <input type="Name" name="Name" class="form-control" id="name" placeholder="John Smith" maxlength="10" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" name="Email" class="form-control" id="email" placeholder="name@example.com" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Subject</label>
-                            <input type="Subject" name="Subject" class="form-control" id="subject" placeholder="Subject.." maxlength="50" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">What's on your mind?</label>
-                            <textarea class="form-control" name="Message" id="Textarea1" placeholder="Thoughts.." rows="3" maxlength="300" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary mb-3" id="sub-but">Submit</button>
+                    <h1 class="taste-h1 home-h1 boka-bord-h1">Boka bord</h1>
+                    <p class="information-p">Om du är intresserad av att boka ett bord, vänligen fyll i formen nedan. Vid andra frågor melja oss gärna @<br>
+                        <a class="boka-email" href="mailto:tasteofthailand5@gmail.com"> <i class="fa-solid fa-envelope"></i> tasteofthailand5@gmail.com</a>
+                    </p>
+                    <div>
+                        <label for="name" class="form-label">Name</label>
+                        <input type="Name" name="Name" class="form-control" id="name" placeholder="Magnus Magnusen" maxlength="10" required>
+                    </div>
+                    <div>
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" name="Date" class="form-control" id="date" placeholder="" required>
+                    </div>
+                    <div>
+                        <label for="time" class="form-label">Time</label>
+                        <input type="time" name="Time" class="form-control" id="time" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="form-label">Övriga önskemål</label>
+                        <input type="Subject" name="Subject" class="form-control" id="subject" placeholder="Övriga önskemål.." maxlength="50" required>
+                    </div>
+                    <div class="button-div">
+                        <button type="submit" class="btn btn-primary" id="sub-but">Submit</button>
+                    </div>
                     </form>
                 </div>
             </div>
@@ -74,7 +77,7 @@
     <footer>
         <div class="socials">
             <a href="https://www.facebook.com/tasteofthailand2020" target="_blank"><i class="fa-brands fa-facebook social-links"></i></a>
-            <a href="https://www.fa-instagram/tasteof_thailand" target="_blank"><i class="fa-brands fa-instagram social-links"></i></a>tasteof_thailand/
+            <a href="https://www.fa-instagram/tasteof_thailand" target="_blank"><i class="fa-brands fa-instagram social-links"></i></a>
         </div>
         <p class="copyright-text">
             © 2022 All rights Reserved by TASTE OF THAILAND. Website designed by
