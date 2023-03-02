@@ -7,7 +7,7 @@ containing three pages. A home page, a menu page and a table booking page.
 
 ## Wireframes
 
-My wireframes were made using Justinminds. You can view them [here](assets/readme-documents/thai-wireframes.pages).
+My wireframes were made using Justinminds. You can view them [here](assets/readme-documents/thai-wireframes.pdf).
 
  ## UX
  
