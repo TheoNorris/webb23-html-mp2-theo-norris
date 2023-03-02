@@ -109,7 +109,7 @@ The information, menus and images of food of this website are taken from the Tas
 
 ### Acknowledgements
 
-I would like to thank the photographers from pexels.com for whom i borrowed their work.
+I would like to thank the photographers from pexels.com for whom I borrowed their work.
 
 Erik Karits
 
