@@ -2,13 +2,17 @@
  :root {
     --green: rgb(84, 177, 61);
     --orange: #fbb571;
+    --orange2: #ff8000;
     --blue: #3D8EB1;
+    --my-padding: 20px;
 }
 
 * {
     font-family: 'Tilt Neon', cursive;
     text-align: center;
     letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -52,7 +56,7 @@ nav {
 }
 
 .main-div {
-    padding: 20px 0px;
+    padding: var(--my-padding) 0px;
     margin-bottom: 20px;
 }
 
@@ -131,7 +135,7 @@ nav {
 .food-pic-div {
     width: 100%;
     border: 2px solid var(--orange);
-    padding: 20px;
+    padding: var(--my-padding);
     border-radius: 20px;
     font-family: 'Tilt Neon', cursive;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -154,12 +158,12 @@ nav {
 }
 
 .menu-pic.left {
-    transition: opacity 1.6s ease-out 0s, transform 1s linear 0s;
+    transition: 2s;
     transform-origin: bottom left;
 }
 
 .menu-pic.right {
-    transition: opacity 1.6s ease-out 0s, transform 1s linear 0s;
+    transition: 2s;
     transform-origin: bottom right;
 }
 
@@ -202,7 +206,7 @@ nav {
 
 .form-container {
     background-color: rgba(250, 250, 250, 0.6);
-    padding: 10px 20px;
+    padding: 10px var(--my-padding);
     margin: 20px auto;
     border-radius: 25px;
 }
@@ -242,6 +246,10 @@ button.btn:hover {
     text-align: left;
 }
 
+#date.form-control {
+    color: rgb(88, 88, 88);
+}
+
 .boka-email {
     font-size: 20px;
     color: rgb(37, 37, 37);
@@ -258,17 +266,31 @@ button.btn:hover {
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
 .social-links {
-    color: #949494;
+    color: rgb(92, 92, 92);
 }
 
 .social-links:hover {
     color: #ff0000;
+}
+
+.address-footer {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.phone-footer {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+.phone-footer:hover {
+    color: var(--orange);
 }
 
 .theo-tag {
@@ -276,7 +298,7 @@ button.btn:hover {
     font-weight: 900;
     text-decoration: none;
     letter-spacing: 4px;
-    color: #ff7e00;
+    color: var(--orange2);
 }
 
 .theo-tag:hover {
@@ -412,6 +434,9 @@ footer {
     }
     .socials {
         margin-top: 10px;
+    }
+    .address-footer {
+        font-size: 10px;
     }
     .copyright-text {
         margin-bottom: 10px;
