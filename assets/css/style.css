@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Tilt+Neon&display=swap');
-:root {
+ :root {
     --green: rgb(84, 177, 61);
     --orange: #fbb571;
     --blue: #3D8EB1;
@@ -9,6 +9,10 @@
     font-family: 'Tilt Neon', cursive;
     text-align: center;
     letter-spacing: 2px;
+}
+
+section {
+    height: auto;
 }
 
 nav {
@@ -285,4 +289,156 @@ button.btn:hover {
 
 footer {
     border-top: 1px solid rgb(78, 78, 78);
+}
+
+@media (max-width: 991px) {
+    .information-p {
+        width: 85%;
+    }
+    .contact-booking-div {
+        margin-top: 25px;
+    }
+    .food-pic-div {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .food-pic-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 920px) {
+    section {
+        height: 87%;
+    }
+    .menu-section {
+        height: 145vh;
+    }
+    .wrapper {
+        height: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    section {
+        height: auto;
+    }
+    .menu-section {
+        height: auto;
+    }
+}
+
+@media (max-width: 595px) {
+    .navbar-logo {
+        max-height: 60px;
+        padding-bottom: 10px;
+    }
+    .main-div {
+        margin-bottom: 0;
+    }
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .image-div {
+        height: 250px;
+    }
+    .information-p {
+        width: 85%;
+        font-size: 20px;
+    }
+    .home-h1 {
+        font-size: 40px;
+    }
+    .wrapper {
+        height: auto;
+    }
+    .contact-booking-div {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-booking-p {
+        margin: 10px 10px;
+    }
+    .food-pic-div {
+        width: 100%;
+    }
+    .menu-image-div {
+        height: 250px;
+    }
+    .menu-container {
+        flex-wrap: wrap;
+    }
+    .menu-pic {
+        width: 80%;
+    }
+    .menu-pic.left {
+        transform-origin: unset;
+    }
+    .menu-pic.right {
+        transform-origin: unset;
+    }
+    .menu-pic:hover {
+        transform: scale(1.4);
+    }
+    .home-h1.menu-h1 {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .home-h1 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .home-h1.boka-bord-h1 {
+        text-decoration: underline 2px;
+        font-size: 30px;
+    }
+    .information-p.contact-p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .boka-email {
+        font-size: 13px;
+        line-height: 40px;
+    }
+    .email-font {
+        display: none;
+    }
+    .wrapper {
+        height: 100%;
+    }
+    .socials {
+        margin-top: 10px;
+    }
+    .copyright-text {
+        margin-bottom: 10px;
+    }
+    .copyright-text {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+    .wrapper {
+        height: auto;
+    }
+}
+
+@media (max-width: 300px) {
+    .home-h1 {
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    .information-p {
+        margin-top: 10px;
+    }
+    .restaurant-info.menu-info {
+        padding: 0 0px;
+    }
+    .home-h1.menu-h1 {
+        margin-bottom: 20px;
+    }
 }
