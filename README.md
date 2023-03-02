@@ -7,7 +7,7 @@ containing three pages. A home page, a menu page and a table booking page.
 
 ## Wireframes
 
-My wireframes were made using Justinminds. You can view them [here](assets/readme-documents/thai-wireframes.pages).
+My wireframes were made using Justinminds. You can view them [here](assets/readme-documents/thai-wireframes.pdf).
 
  ## UX
  
@@ -101,8 +101,6 @@ To run locally you can clone this repository directly into the editor of your ch
 
 To cut ties with this GitHub repository, type `git remote rm origin`into the terminal.
 
-![git remove](/assets/readme-documents/git-remove.png)
-
 ## Credits
 
 ### content
@@ -111,7 +109,7 @@ The information, menus and images of food of this website are taken from the Tas
 
 ### Acknowledgements
 
-I would like to thank the photographers from pexels.com for whom i borrowed their work.
+I would like to thank the photographers from pexels.com for whom I borrowed their work.
 
 Erik Karits
 
