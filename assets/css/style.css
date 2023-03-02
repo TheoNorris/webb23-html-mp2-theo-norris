@@ -420,9 +420,11 @@ footer {
     .information-p {
         width: 85%;
         font-size: 20px;
+        margin-top: 20px;
     }
     .home-h1 {
         font-size: 40px;
+        margin-bottom: 0;
     }
     /*-------contact.html--------*/
     .wrapper {
