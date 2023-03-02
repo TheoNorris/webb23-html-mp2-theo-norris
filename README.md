@@ -101,8 +101,6 @@ To run locally you can clone this repository directly into the editor of your ch
 
 To cut ties with this GitHub repository, type `git remote rm origin`into the terminal.
 
-![git remove](/assets/readme-documents/git-remove.png)
-
 ## Credits
 
 ### content
